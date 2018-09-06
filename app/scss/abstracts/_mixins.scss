@@ -1,0 +1,43 @@
+@mixin respond-to($breakpoint){
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin container {
+  //padding: 0 2.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 25 / 375 * 100%;
+  padding-left: 25 / 375 * 100%;
+
+  @include respond-to(tablet) {
+    //padding: 0 10rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 100 / 1280 * 100%;
+    padding-left: 100 / 1280 * 100%;
+  }
+  @include respond-to(desktop) {
+    //padding: 0 16.7rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 167 / 1280 * 100%;
+    padding-left: 167 / 1280 * 100%;
+  }
+  @include respond-to(desktop-large) {
+    //padding: 0 18rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 180 / 1600 * 100%;
+    padding-left: 180 / 1600 * 100%;
+  }
+
+  @include respond-to(desktop-large) {
+    //padding: 0 30rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 300 / 2560 * 100%;
+    padding-left: 300 / 2560 * 100%;
+  }
+}
