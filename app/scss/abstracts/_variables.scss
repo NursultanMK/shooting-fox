@@ -4,11 +4,13 @@ $color-secondary-light: rgb(66, 66, 66) !default;
 $color-red: rgb(190, 70, 63) !default;
 
 // Headings
-$heading-primary-color: $color-secondary-dark;
+$heading-primary-color: $color-primary;
+$heading-dark-color: $color-secondary-dark;
 $heading-secondary-color: $color-red;
 
 // Paragraphs
 $text-color: $color-secondary-light;
+$text-light-color: $color-primary;
 
 $breakpoints: (
   tablet: 768px,

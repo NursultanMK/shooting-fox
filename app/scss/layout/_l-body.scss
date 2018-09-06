@@ -1,7 +1,11 @@
 .l-body {
-  overflow: hidden;
+  overflow-x: hidden;
 
   &__header {
     z-index: 9999;
+  }
+
+  &__main {
+    z-index: 9980;
   }
 }

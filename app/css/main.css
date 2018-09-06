@@ -83,6 +83,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; }
 
+.t-main-heading {
+  font-family: 'Code Pro Bold LC', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.5rem; }
+
 .c-logotype {
   width: 10.5rem;
   display: flex;
@@ -120,10 +126,26 @@ body {
   .c-navigation__item:not(:last-child) {
     margin-bottom: 2.5rem; }
 
+.c-play-button {
+  display: flex;
+  align-items: center; }
+  .c-play-button__icon {
+    width: 3rem; }
+  .c-play-button__img {
+    width: 100%; }
+  .c-play-button__text {
+    padding: 0 1.2rem;
+    color: white; }
+  .c-play-button__bold {
+    display: block;
+    font-weight: 700; }
+
 .l-body {
-  overflow: hidden; }
+  overflow-x: hidden; }
   .l-body__header {
     z-index: 9999; }
+  .l-body__main {
+    z-index: 9980; }
 
 .l-header {
   padding-right: 6.66667%;
@@ -159,3 +181,44 @@ body {
       padding-bottom: 0;
       padding-right: 11.71875%;
       padding-left: 11.71875%; } }
+
+.l-main {
+  position: relative; }
+
+.p-index {
+  width: 100%;
+  background-image: url("../images/mobile-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 13rem;
+  padding-bottom: 2rem; }
+  .p-index__inner {
+    padding-right: 6.66667%;
+    padding-left: 6.66667%; }
+    @media (min-width: 768px) {
+      .p-index__inner {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 7.8125%;
+        padding-left: 7.8125%; } }
+    @media (min-width: 1280px) {
+      .p-index__inner {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 13.04688%;
+        padding-left: 13.04688%; } }
+    @media (min-width: 1600px) {
+      .p-index__inner {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 11.25%;
+        padding-left: 11.25%; } }
+    @media (min-width: 1600px) {
+      .p-index__inner {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 11.71875%;
+        padding-left: 11.71875%; } }
+  .p-index__heading {
+    padding-right: 20.12384%;
+    margin-bottom: 24rem; }

@@ -1,0 +1,20 @@
+.p-index {
+  width: 100%;
+  background-image: url("../images/mobile-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 13rem;
+  padding-bottom: 2rem;
+
+  &__inner {
+    @include container;
+  }
+
+  &__heading {
+    padding-right: 65 / 323 * 100%;
+    margin-bottom: 24rem;
+  }
+
+  &__body {
+  }
+}
