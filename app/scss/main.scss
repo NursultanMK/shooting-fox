@@ -9,6 +9,11 @@
   "base/base",
   "base/typography";
 
+// Components
+@import
+  "components/c-logotype",
+  "components/c-navigation";
+
 // Layout
 @import
   "layout/l-body",

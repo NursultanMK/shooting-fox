@@ -5,11 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="l-body">
-    <header class="l-body__header l-header"></header>
-    <main class="l-body__main l-main"></main>
-    <footer class="l-body__footer l-footer"></footer>
+    <header class="l-body__header l-header">
+        <figure class="c-logotype">
+            <img class="c-logotype__icon" src="images/logotype.svg" alt="Logotype" >
+        </figure>
+        <nav class="c-navigation">
+            <figure class="c-navigation__menu-bars">
+                <img class="c-navigation__menu-icon" src="images/menu-button.svg" alt="Menu Icon">
+            </figure>
+            <ul class="c-navigation__list">
+                <li class="c-navigation__item">Home</li>
+                <li class="c-navigation__item">Mission</li>
+                <li class="c-navigation__item">Features</li>
+                <li class="c-navigation__item">Resources</li>
+                <li class="c-navigation__item">Login</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.c-navigation__menu-bars').click(function () {
+                $('.c-navigation__list').toggleClass('c-navigation__list--activate')
+            })
+        })
+    </script>
 </body>
 </html>

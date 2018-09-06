@@ -1,15 +1,7 @@
 .l-body {
-  position: relative;
+  overflow: hidden;
 
   &__header {
     z-index: 9999;
-  }
-
-  &__main {
-    z-index: 9980;
-  }
-
-  &__footer {
-    z-index: 9970;
   }
 }
