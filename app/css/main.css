@@ -143,6 +143,42 @@ body {
   .c-logotype__icon {
     width: 100%; }
 
+.c-mission-description {
+  border: 1px solid red; }
+  .c-mission-description__title {
+    color: #6d6d6d;
+    font-weight: 600;
+    border: 1px solid green;
+    margin-bottom: 1.6rem; }
+  .c-mission-description__heading {
+    border: 1px solid blue;
+    width: 29rem;
+    font-size: 2.7rem;
+    margin-bottom: 1.6rem; }
+  .c-mission-description__text {
+    width: 32rem;
+    border: 1px solid red;
+    font-size: 1.3rem;
+    margin-bottom: 5rem; }
+  .c-mission-description__button {
+    border: 1px solid #be463f;
+    border-radius: 5rem;
+    padding: 1.4rem 2.5rem;
+    width: 16.1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #be463f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .c-mission-description__arrow {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .c-mission-description__arrow-icon {
+      width: 100%; }
+
 .c-navigation__menu-bars {
   width: 2.5rem;
   display: flex;
@@ -289,6 +325,11 @@ body {
         padding-bottom: 0;
         padding-right: 15.625%;
         padding-left: 15.625%; } }
+  .p-mission__heading {
+    border: 1px solid black;
+    margin-bottom: 5rem; }
+  .p-mission__body {
+    border: 1px solid blue; }
 
 .p-index {
   width: 100%;

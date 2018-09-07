@@ -2,6 +2,7 @@ $color-primary: rgb(255, 255, 255) !default;
 $color-secondary-dark: rgb(0, 0, 0) !default;
 $color-secondary-light: rgb(66, 66, 66) !default;
 $color-red: rgb(190, 70, 63) !default;
+$color-light-grey: rgb(109, 109, 109) !default;
 
 // Headings
 $heading-primary-color: $color-primary;
@@ -11,6 +12,7 @@ $heading-secondary-color: $color-red;
 // Paragraphs
 $text-color: $color-secondary-light;
 $text-light-color: $color-primary;
+$text-light-grey-color: $color-light-grey;
 
 $breakpoints: (
   tablet: 768px,
