@@ -1,18 +1,36 @@
 .p-index {
   width: 100%;
-  background-image: url("../images/mobile-hero.png");
   background-repeat: no-repeat;
+  background-image: url("../images/mobile-hero.png");
+  @include respond-to(tablet) {
+    background-image: url("../images/hero.png");
+  }
   background-size: cover;
-  padding-top: 13rem;
+  background-position: center;
+  padding-top: 20rem;
   padding-bottom: 2rem;
 
+  @include respond-to(tablet) {
+    padding-top: 30rem;
+    padding-bottom: 2rem;
+  }
+  @include respond-to(desktop-large) {
+    padding-top: 35rem;
+    padding-bottom: 12rem;
+  }
+  @include respond-to(desktop-el) {
+    padding-top: 50rem;
+    padding-bottom: 12rem;
+  }
   &__inner {
     @include container;
   }
 
   &__heading {
+    border: 1px solid white;
+    width: 30rem;
     padding-right: 65 / 323 * 100%;
-    margin-bottom: 24rem;
+    margin-bottom: 20rem;
   }
 
   &__body {

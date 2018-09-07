@@ -7,4 +7,17 @@ body {
   color: $heading-primary-color;
   text-transform: uppercase;
   font-size: 3.5rem;
+
+  @include respond-to(tablet) {
+    font-size: 4rem;
+  }
+  @include respond-to(desktop) {
+    font-size: 5rem;
+  }
+  @include respond-to(desktop-large) {
+    font-size: 6rem;
+  }
+  @include respond-to(desktop-el) {
+    font-size: 9rem;
+  }
 }

@@ -69,6 +69,7 @@
   font-style: normal; }
 
 html {
+  width: 100%;
   font-size: 62.5%; }
 
 * {
@@ -88,12 +89,33 @@ body {
   color: white;
   text-transform: uppercase;
   font-size: 3.5rem; }
+  @media (min-width: 768px) {
+    .t-main-heading {
+      font-size: 4rem; } }
+  @media (min-width: 1280px) {
+    .t-main-heading {
+      font-size: 5rem; } }
+  @media (min-width: 1600px) {
+    .t-main-heading {
+      font-size: 6rem; } }
+  @media (min-width: 2560px) {
+    .t-main-heading {
+      font-size: 9rem; } }
 
 .c-logotype {
-  width: 10.5rem;
+  width: 15rem;
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (min-width: 768px) {
+    .c-logotype {
+      width: 17rem; } }
+  @media (min-width: 1280px) {
+    .c-logotype {
+      width: 20rem; } }
+  @media (min-width: 2560px) {
+    .c-logotype {
+      width: 30rem; } }
   .c-logotype__icon {
     width: 100%; }
 
@@ -102,6 +124,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (min-width: 1000px) {
+    .c-navigation__menu-bars {
+      display: none; } }
 
 .c-navigation__menu-icon {
   width: 100%; }
@@ -114,17 +139,37 @@ body {
   transition: 0.2s;
   padding-top: 2rem;
   background: purple; }
+  @media (min-width: 1000px) {
+    .c-navigation__list {
+      transition: unset;
+      width: 100%;
+      padding: 0;
+      position: static;
+      display: flex; } }
   .c-navigation__list--activate {
     right: 0; }
 
 .c-navigation__item {
   text-align: center;
+  font-size: 1.4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-transform: uppercase;
   font-weight: 600; }
+  @media (min-width: 1600px) {
+    .c-navigation__item {
+      font-size: 1.8rem; } }
+  @media (min-width: 2560px) {
+    .c-navigation__item {
+      font-size: 2.5rem; } }
+  @media (min-width: 1000px) {
+    .c-navigation__item {
+      padding: 0 2.6rem 0 0; } }
   .c-navigation__item:not(:last-child) {
     margin-bottom: 2.5rem; }
+    @media (min-width: 1000px) {
+      .c-navigation__item:not(:last-child) {
+        margin-bottom: 0; } }
 
 .c-play-button {
   display: flex;
@@ -135,6 +180,7 @@ body {
     width: 100%; }
   .c-play-button__text {
     padding: 0 1.2rem;
+    font-weight: 2n00;
     color: white; }
   .c-play-button__bold {
     display: block;
@@ -159,66 +205,88 @@ body {
   width: 100%; }
   @media (min-width: 768px) {
     .l-header {
-      padding-top: 0;
-      padding-bottom: 0;
-      padding-right: 7.8125%;
-      padding-left: 7.8125%; } }
+      padding-right: 13.02083%;
+      padding-left: 13.02083%; } }
   @media (min-width: 1280px) {
     .l-header {
-      padding-top: 0;
-      padding-bottom: 0;
       padding-right: 13.04688%;
       padding-left: 13.04688%; } }
   @media (min-width: 1600px) {
     .l-header {
-      padding-top: 0;
-      padding-bottom: 0;
-      padding-right: 11.25%;
-      padding-left: 11.25%; } }
-  @media (min-width: 1600px) {
+      padding-right: 15%;
+      padding-left: 15%; } }
+  @media (min-width: 2560px) {
     .l-header {
       padding-top: 0;
       padding-bottom: 0;
-      padding-right: 11.71875%;
-      padding-left: 11.71875%; } }
+      padding-right: 15.625%;
+      padding-left: 15.625%; } }
+  @media (min-width: 768px) {
+    .l-header {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  @media (min-width: 1280px) {
+    .l-header {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem; } }
+  @media (min-width: 1600px) {
+    .l-header {
+      padding-top: 3rem;
+      padding-bottom: 3rem; } }
+  @media (min-width: 2560px) {
+    .l-header {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem; } }
 
 .l-main {
   position: relative; }
 
 .p-index {
   width: 100%;
-  background-image: url("../images/mobile-hero.png");
   background-repeat: no-repeat;
+  background-image: url("../images/mobile-hero.png");
   background-size: cover;
-  padding-top: 13rem;
+  background-position: center;
+  padding-top: 20rem;
   padding-bottom: 2rem; }
+  @media (min-width: 768px) {
+    .p-index {
+      background-image: url("../images/hero.png"); } }
+  @media (min-width: 768px) {
+    .p-index {
+      padding-top: 30rem;
+      padding-bottom: 2rem; } }
+  @media (min-width: 1600px) {
+    .p-index {
+      padding-top: 35rem;
+      padding-bottom: 12rem; } }
+  @media (min-width: 2560px) {
+    .p-index {
+      padding-top: 50rem;
+      padding-bottom: 12rem; } }
   .p-index__inner {
     padding-right: 6.66667%;
     padding-left: 6.66667%; }
     @media (min-width: 768px) {
       .p-index__inner {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-right: 7.8125%;
-        padding-left: 7.8125%; } }
+        padding-right: 13.02083%;
+        padding-left: 13.02083%; } }
     @media (min-width: 1280px) {
       .p-index__inner {
-        padding-top: 0;
-        padding-bottom: 0;
         padding-right: 13.04688%;
         padding-left: 13.04688%; } }
     @media (min-width: 1600px) {
       .p-index__inner {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-right: 11.25%;
-        padding-left: 11.25%; } }
-    @media (min-width: 1600px) {
+        padding-right: 15%;
+        padding-left: 15%; } }
+    @media (min-width: 2560px) {
       .p-index__inner {
         padding-top: 0;
         padding-bottom: 0;
-        padding-right: 11.71875%;
-        padding-left: 11.71875%; } }
+        padding-right: 15.625%;
+        padding-left: 15.625%; } }
   .p-index__heading {
+    border: 1px solid white;
+    width: 30rem;
     padding-right: 20.12384%;
-    margin-bottom: 24rem; }
+    margin-bottom: 20rem; }

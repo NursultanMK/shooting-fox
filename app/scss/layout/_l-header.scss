@@ -1,7 +1,6 @@
 .l-header {
   @include container;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
+  @include vertical-padding;
   display: flex;
   justify-content: space-between;
   align-items: center;

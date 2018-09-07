@@ -5,6 +5,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include respond-to(desktop-small) {
+      display: none;
+    }
   }
   &__menu-icon {
     width: 100%;
@@ -19,19 +22,38 @@
     padding-top: 2rem;
     background: purple;
 
+    @include respond-to(desktop-small) {
+      transition: unset;
+      width: 100%;
+      padding: 0;
+      position: static;
+      display: flex;
+    }
     &--activate {
       right: 0;
     }
   }
   &__item {
     text-align: center;
+    font-size: 1.4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-transform: uppercase;
     font-weight: 600;
-
+    @include respond-to(desktop-large) {
+      font-size: 1.8rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2.5rem;
+    }
+    @include respond-to(desktop-small) {
+      padding: 0 2.6rem 0 0;
+    }
     &:not(:last-child){
       margin-bottom: 2.5rem;
+      @include respond-to(desktop-small) {
+        margin-bottom: 0;
+      }
     }
   }
 }
