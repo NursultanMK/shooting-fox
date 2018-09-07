@@ -1,21 +1,18 @@
 .c-mission-description {
-  border: 1px solid red;
+  margin-bottom: 4rem;
 
   &__title {
     color: $text-light-grey-color;
     font-weight: 600;
-    border: 1px solid green;
     margin-bottom: 1.6rem;
   }
   &__heading {
-    border: 1px solid blue;
     width: 29rem;
     font-size: 2.7rem;
     margin-bottom: 1.6rem;
   }
   &__text {
     width: 32rem;
-    border: 1px solid red;
     font-size: 1.3rem;
     margin-bottom: 5rem;
   }
