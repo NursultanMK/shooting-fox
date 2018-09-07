@@ -1,0 +1,33 @@
+.c-description {
+  //border: 1px solid purple;
+  background: blue;
+
+  &__col {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  &__icon {
+    width: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    &-img {
+      width: 100%;
+    }
+  }
+  &__text {
+    border: 1px solid red;
+    text-align: center;
+    font-weight: 600;
+  }
+
+}

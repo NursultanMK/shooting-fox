@@ -11,6 +11,7 @@
 
 // Components
 @import
+  "components/c-description-icons",
   "components/c-logotype",
   "components/c-navigation",
   "components/c-play-button";
@@ -24,4 +25,5 @@
 
 // Pages
 @import
+  "page/p-mission",
   "page/p-index";
