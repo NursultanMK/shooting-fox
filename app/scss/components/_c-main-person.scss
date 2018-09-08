@@ -1,0 +1,39 @@
+.c-main-person {
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
+  top: 25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background: $color-primary;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+
+  &__avatar {
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &__img {
+    width: 100%;
+    border-radius: 100%;
+  }
+
+  &__personal-dates {
+    margin-top: 2rem;
+  }
+  &__first-line {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__second-line {
+    color: $text-light-grey-color;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

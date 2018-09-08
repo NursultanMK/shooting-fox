@@ -210,6 +210,66 @@ body {
   .c-logotype__icon {
     width: 100%; }
 
+.c-main-person {
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
+  top: 25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background: white;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem; }
+  .c-main-person__avatar {
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; }
+  .c-main-person__img {
+    width: 100%;
+    border-radius: 100%; }
+  .c-main-person__personal-dates {
+    margin-top: 2rem; }
+  .c-main-person__first-line {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center; }
+  .c-main-person__second-line {
+    color: #6d6d6d;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem; }
+
+.c-members {
+  position: relative;
+  padding-bottom: 7rem; }
+  .c-members__block {
+    border-radius: 1rem;
+    padding: 5rem 3rem 4rem 3rem;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+    background: white; }
+  .c-members__title {
+    font-weight: 400;
+    margin-bottom: 2.2rem; }
+  .c-members__personal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem; }
+  .c-members__person {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem; }
+  .c-members__img {
+    border-radius: 100%;
+    width: 100%; }
+
 .c-mission-description {
   margin-bottom: 4rem; }
   .c-mission-description__title {
