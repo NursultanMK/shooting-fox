@@ -436,6 +436,54 @@ body {
     display: block;
     font-weight: 700; }
 
+.c-premium {
+  padding-bottom: 5rem;
+  position: relative; }
+  .c-premium__block {
+    width: 20rem;
+    border-radius: 1rem;
+    background: #be463f;
+    padding: 2rem 0 5rem 2rem; }
+  .c-premium__title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.5rem; }
+  .c-premium__subtitle {
+    font-size: 2.3rem;
+    font-family: "Code Pro", sans-serif;
+    color: white;
+    line-height: 1.3; }
+  .c-premium__image-first {
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    z-index: -9; }
+  .c-premium__image-second {
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 7.5rem;
+    z-index: -8; }
+  .c-premium__image-third {
+    width: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 18rem;
+    left: 1.5rem;
+    z-index: -8; }
+  .c-premium__image {
+    width: 100%; }
+
 .c-resources-description {
   margin-bottom: 4rem; }
   .c-resources-description__title {
