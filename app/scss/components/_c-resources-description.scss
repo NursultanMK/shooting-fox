@@ -1,0 +1,19 @@
+.c-resources-description {
+  margin-bottom: 4rem;
+  &__title {
+    color: $text-light-grey-color;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  &__heading {
+    width: 28rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__text {
+    width: 32rem;
+    font-size: 1.3rem;
+    color: $text-light-grey-color;
+    margin-bottom: 1.6rem;
+  }
+}

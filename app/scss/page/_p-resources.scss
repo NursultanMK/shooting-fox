@@ -1,0 +1,10 @@
+.p-resources {
+  padding-top: 3.2rem;
+  padding-bottom: 6rem;
+
+  &__inner {
+    @include container;
+  }
+
+  &__body {}
+}

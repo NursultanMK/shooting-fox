@@ -356,6 +356,21 @@ body {
   .c-premium__image {
     width: 100%; }
 
+.c-resources-description {
+  margin-bottom: 4rem; }
+  .c-resources-description__title {
+    color: #6d6d6d;
+    font-weight: 600;
+    margin-bottom: 1.6rem; }
+  .c-resources-description__heading {
+    width: 28rem;
+    margin-bottom: 1.6rem; }
+  .c-resources-description__text {
+    width: 32rem;
+    font-size: 1.3rem;
+    color: #6d6d6d;
+    margin-bottom: 1.6rem; }
+
 .l-body {
   overflow-x: hidden; }
   .l-body__header {
@@ -511,3 +526,28 @@ body {
         padding-left: 15.625%; } }
   .p-mission__heading {
     margin-bottom: 5rem; }
+
+.p-resources {
+  padding-top: 3.2rem;
+  padding-bottom: 6rem; }
+  .p-resources__inner {
+    padding-right: 6.66667%;
+    padding-left: 6.66667%; }
+    @media (min-width: 768px) {
+      .p-resources__inner {
+        padding-right: 13.02083%;
+        padding-left: 13.02083%; } }
+    @media (min-width: 1280px) {
+      .p-resources__inner {
+        padding-right: 13.04688%;
+        padding-left: 13.04688%; } }
+    @media (min-width: 1600px) {
+      .p-resources__inner {
+        padding-right: 15%;
+        padding-left: 15%; } }
+    @media (min-width: 2560px) {
+      .p-resources__inner {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 15.625%;
+        padding-left: 15.625%; } }
