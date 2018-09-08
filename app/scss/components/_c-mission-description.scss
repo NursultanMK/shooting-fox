@@ -1,0 +1,44 @@
+.c-mission-description {
+  margin-bottom: 4rem;
+
+  &__title {
+    color: $text-light-grey-color;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  &__heading {
+    width: 29rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__text {
+    width: 25rem;
+    font-size: 1.3rem;
+    color: $text-light-grey-color;
+    margin-bottom: 1.6rem;
+  }
+
+  &__learn {
+    border: 1px solid $color-red;
+    color: $text-color-red;
+    font-weight: 600;
+    width: 15rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.5rem;
+    border-radius: 10rem;
+  }
+
+  &__arrow {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__arrow-icon {
+    width: 100%;
+  }
+}

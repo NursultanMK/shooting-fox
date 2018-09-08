@@ -336,6 +336,39 @@ body {
     border-radius: 100%;
     width: 100%; }
 
+.c-mission-description {
+  margin-bottom: 4rem; }
+  .c-mission-description__title {
+    color: #6d6d6d;
+    font-weight: 600;
+    margin-bottom: 1.6rem; }
+  .c-mission-description__heading {
+    width: 29rem;
+    margin-bottom: 1.6rem; }
+  .c-mission-description__text {
+    width: 25rem;
+    font-size: 1.3rem;
+    color: #6d6d6d;
+    margin-bottom: 1.6rem; }
+  .c-mission-description__learn {
+    border: 1px solid #be463f;
+    color: #be463f;
+    font-weight: 600;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.5rem;
+    border-radius: 10rem; }
+  .c-mission-description__arrow {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .c-mission-description__arrow-icon {
+    width: 100%; }
+
 .c-navigation__menu-bars {
   width: 2.5rem;
   display: flex;
@@ -635,8 +668,6 @@ body {
         padding-bottom: 0;
         padding-right: 15.625%;
         padding-left: 15.625%; } }
-  .p-mission__heading {
-    margin-bottom: 5rem; }
 
 .p-resources {
   padding-top: 3.2rem;
