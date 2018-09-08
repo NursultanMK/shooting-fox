@@ -1,0 +1,24 @@
+.c-footer-lists {
+
+  &__list {
+    &:not(:last-child){
+      margin-bottom: 3rem;
+    }
+  }
+  &__item {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $text-color;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &--title {
+      color: $color-secondary-dark;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+    }
+  }
+}
