@@ -1,0 +1,8 @@
+.c-website-info {
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
+
+  &__inner {
+    @include container;
+  }
+}
