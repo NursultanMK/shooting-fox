@@ -432,7 +432,7 @@ body {
     width: 100%; }
   .c-play-button__text {
     padding: 0 1.2rem;
-    font-weight: 2n00;
+    font-weight: 200;
     color: white; }
   .c-play-button__bold {
     display: block;
