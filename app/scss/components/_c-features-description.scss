@@ -1,0 +1,43 @@
+.c-features-description {
+  margin-bottom: 4rem;
+  &__title {
+    color: $text-light-grey-color;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  &__heading {
+    width: 28rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__undertext {
+    width: 25rem;
+    font-size: 1.2rem;
+    color: $text-light-grey-color;
+    margin-bottom: 1.6rem;
+  }
+
+  &__arrows {
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__arrow-icon {
+    border: 1px solid $color-grey;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    & img {
+      width: 50%;
+    }
+
+    &--selected {
+      background: $color-red;
+    }
+  }
+}

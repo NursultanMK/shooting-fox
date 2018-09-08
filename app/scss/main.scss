@@ -12,6 +12,7 @@
 // Components
 @import
   "components/c-description-icons",
+  "components/c-features-description",
   "components/c-logotype",
   "components/c-mission-description",
   "components/c-navigation",
@@ -27,5 +28,6 @@
 
 // Pages
 @import
-  "page/p-mission",
-  "page/p-index";
+  "page/p-features",
+  "page/p-index",
+  "page/p-mission";
