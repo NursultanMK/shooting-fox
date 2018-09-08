@@ -12,6 +12,7 @@
 // Components
 @import
   "components/c-account",
+  "components/c-connection-block",
   "components/c-description-icons",
   "components/c-features-description",
   "components/c-features-info",
@@ -22,7 +23,8 @@
   "components/c-navigation",
   "components/c-play-button",
   "components/c-premium",
-  "components/c-resources-description";
+  "components/c-resources-description",
+  "components/c-social-links";
 
 // Layout
 @import

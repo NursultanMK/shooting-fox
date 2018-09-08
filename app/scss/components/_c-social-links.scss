@@ -1,0 +1,15 @@
+.c-social-links {
+  display: flex;
+
+  &__item {
+    width: 3.5rem;
+    padding: 0 0.2rem;
+  }
+
+  &__icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

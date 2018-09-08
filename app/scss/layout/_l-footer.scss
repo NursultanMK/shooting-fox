@@ -1,0 +1,10 @@
+.l-footer {
+  border: 1px solid black;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+
+  &__inner {
+    @include container;
+    border: 1px solid red;
+  }
+}
