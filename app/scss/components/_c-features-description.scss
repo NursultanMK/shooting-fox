@@ -1,13 +1,30 @@
 .c-features-description {
   margin-bottom: 4rem;
+  width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  @include respond-to(desktop-small) {
+    margin-right: 0;
+    margin-left: 0;
+    //display: flex;
+    //justify-content: space-between;
+  }
+
   &__title {
     color: $text-light-grey-color;
     font-weight: 600;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop-large) {
+      font-size: 1.7rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
   }
   &__heading {
     width: 28rem;
     margin-bottom: 1.6rem;
+
   }
 
   &__undertext {
@@ -15,6 +32,15 @@
     font-size: 1.2rem;
     color: $text-light-grey-color;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop) {
+      font-size: 1.6rem;
+    }
+    @include respond-to(desktop-large) {
+      font-size: 1.8rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
   }
 
   &__arrows {

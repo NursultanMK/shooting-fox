@@ -6,5 +6,10 @@
     @include container;
   }
 
-  &__body {}
+  &__body {
+    @include respond-to(desktop-small) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

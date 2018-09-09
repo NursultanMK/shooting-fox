@@ -1,5 +1,29 @@
 .c-features-info {
   margin: 0 auto;
+  position: relative;
+  @include respond-to(desktop-small) {
+    margin-right: -16%;
+    margin-left: 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+    &:before {
+      content: "";
+      position: absolute;
+      background: $color-red;
+      top: -1rem;
+      bottom: 3rem;
+      left: -1rem;
+      right: -2.5%;
+      z-index: -9;
+      border-radius: 1rem 0 0 1rem;
+    }
+    @include respond-to(desktop-large) {
+      width: 80%;
+      margin-right: -20%;
+    }
+  }
 
   &__block {
     width: 23rem;
@@ -8,9 +32,19 @@
     padding-bottom: 4.2rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+    background: $color-primary;
+    @include respond-to(desktop-small) {
+      margin-right: 0;
+      margin-left: 0;
+      width: 30%;
+      margin-bottom: 0;
+    }
 
     &:not(:last-child) {
       margin-bottom: 3.5rem;
+      @include respond-to(desktop-small) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -23,6 +57,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include respond-to(desktop-small) {
+      width: 7rem;
+      height: 7rem;
+    }
+    @include respond-to(desktop-large) {
+      width: 11rem;
+      height: 11rem;
+    }
   }
 
   &__img {
@@ -34,5 +76,17 @@
     text-transform: uppercase;
     color: $text-light-grey-color;
     text-align: center;
+    @include respond-to(desktop-small) {
+      padding: 0 1.2rem;
+    }
+    @include respond-to(desktop) {
+      width: 20rem;
+      margin: 0 auto;
+      font-size: 1.6rem;
+    }
+    @include respond-to(desktop-large) {
+      font-size: 0.9vw;
+    }
+
   }
 }
