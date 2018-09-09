@@ -2,7 +2,18 @@
   padding-top: 3.2rem;
   padding-bottom: 3.2rem;
   background: $color-secondary-grey;
-
+  @include respond-to(desktop) {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+  @include respond-to(desktop-large) {
+    padding-top: 5.8rem;
+    padding-bottom: 8rem;
+  }
+  @include respond-to(desktop-el) {
+    padding-top: 6.6rem;
+    padding-bottom: 9rem;
+  }
   &__inner {
     @include container;
     @include respond-to(desktop-small) {

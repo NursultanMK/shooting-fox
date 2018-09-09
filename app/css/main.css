@@ -797,6 +797,18 @@ body {
   padding-top: 3.2rem;
   padding-bottom: 3.2rem;
   background: #f9f8f8; }
+  @media (min-width: 1280px) {
+    .l-footer {
+      padding-top: 5rem;
+      padding-bottom: 7rem; } }
+  @media (min-width: 1600px) {
+    .l-footer {
+      padding-top: 5.8rem;
+      padding-bottom: 8rem; } }
+  @media (min-width: 2560px) {
+    .l-footer {
+      padding-top: 6.6rem;
+      padding-bottom: 9rem; } }
   .l-footer__inner {
     padding-right: 6.66667%;
     padding-left: 6.66667%; }
@@ -826,6 +838,18 @@ body {
 .p-features {
   padding-top: 3.2rem;
   padding-bottom: 6rem; }
+  @media (min-width: 1280px) {
+    .p-features {
+      padding-top: 5rem;
+      padding-bottom: 7rem; } }
+  @media (min-width: 1600px) {
+    .p-features {
+      padding-top: 5.8rem;
+      padding-bottom: 8rem; } }
+  @media (min-width: 2560px) {
+    .p-features {
+      padding-top: 6.6rem;
+      padding-bottom: 9rem; } }
   .p-features__inner {
     padding-right: 6.66667%;
     padding-left: 6.66667%; }
@@ -904,6 +928,18 @@ body {
 .p-mission {
   padding-top: 3.2rem;
   padding-bottom: 6rem; }
+  @media (min-width: 1280px) {
+    .p-mission {
+      padding-top: 5rem;
+      padding-bottom: 7rem; } }
+  @media (min-width: 1600px) {
+    .p-mission {
+      padding-top: 5.8rem;
+      padding-bottom: 8rem; } }
+  @media (min-width: 2560px) {
+    .p-mission {
+      padding-top: 6.6rem;
+      padding-bottom: 9rem; } }
   .p-mission__inner {
     padding-right: 6.66667%;
     padding-left: 6.66667%; }
@@ -934,6 +970,18 @@ body {
 .p-resources {
   padding-top: 3.2rem;
   padding-bottom: 6rem; }
+  @media (min-width: 1280px) {
+    .p-resources {
+      padding-top: 5rem;
+      padding-bottom: 7rem; } }
+  @media (min-width: 1600px) {
+    .p-resources {
+      padding-top: 5.8rem;
+      padding-bottom: 8rem; } }
+  @media (min-width: 2560px) {
+    .p-resources {
+      padding-top: 6.6rem;
+      padding-bottom: 9rem; } }
   .p-resources__inner {
     padding-right: 6.66667%;
     padding-left: 6.66667%; }
