@@ -1,21 +1,47 @@
 .c-mission-description {
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 4rem;
-
+  width: 32.5rem;
+  @include respond-to(tablet) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  @include respond-to(desktop) {
+    width: 400 / 932 * 100%;
+  }
   &__title {
     color: $text-light-grey-color;
     font-weight: 600;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop-large) {
+      font-size: 1.7rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
   }
   &__heading {
     width: 29rem;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop) {
+      width: 45rem;
+    }
   }
 
   &__text {
-    width: 25rem;
     font-size: 1.3rem;
     color: $text-light-grey-color;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop) {
+      font-size: 1.6rem;
+    }
+    @include respond-to(desktop-large) {
+      font-size: 1.8rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
   }
 
   &__learn {

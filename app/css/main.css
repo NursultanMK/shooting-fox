@@ -111,6 +111,12 @@ body {
 
 .t-heading {
   font-size: 2.7rem; }
+  @media (min-width: 1600px) {
+    .t-heading {
+      font-size: 3.2rem; } }
+  @media (min-width: 2560px) {
+    .t-heading {
+      font-size: 4rem; } }
 
 .c-account {
   padding-top: 3.2rem;
@@ -337,19 +343,46 @@ body {
     width: 100%; }
 
 .c-mission-description {
-  margin-bottom: 4rem; }
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4rem;
+  width: 32.5rem; }
+  @media (min-width: 768px) {
+    .c-mission-description {
+      margin-right: 0;
+      margin-left: 0; } }
+  @media (min-width: 1280px) {
+    .c-mission-description {
+      width: 42.91845%; } }
   .c-mission-description__title {
     color: #6d6d6d;
     font-weight: 600;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1600px) {
+      .c-mission-description__title {
+        font-size: 1.7rem; } }
+    @media (min-width: 2560px) {
+      .c-mission-description__title {
+        font-size: 2rem; } }
   .c-mission-description__heading {
     width: 29rem;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1280px) {
+      .c-mission-description__heading {
+        width: 45rem; } }
   .c-mission-description__text {
-    width: 25rem;
     font-size: 1.3rem;
     color: #6d6d6d;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1280px) {
+      .c-mission-description__text {
+        font-size: 1.6rem; } }
+    @media (min-width: 1600px) {
+      .c-mission-description__text {
+        font-size: 1.8rem; } }
+    @media (min-width: 2560px) {
+      .c-mission-description__text {
+        font-size: 2rem; } }
   .c-mission-description__learn {
     border: 1px solid #be463f;
     color: #be463f;
@@ -437,50 +470,65 @@ body {
     font-weight: 700; }
 
 .c-premium {
-  padding-bottom: 5rem;
-  position: relative; }
+  position: relative;
+  width: 32.5rem;
+  padding-bottom: 15.38462%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .c-premium {
+      margin-right: 0;
+      margin-left: 0; } }
+  @media (min-width: 1280px) {
+    .c-premium {
+      width: 42.91845%; } }
   .c-premium__block {
-    width: 20rem;
+    width: 67.69231%;
     border-radius: 1rem;
     background: #be463f;
-    padding: 2rem 0 5rem 2rem; }
+    padding-top: 5%;
+    padding-right: 0;
+    padding-bottom: 8rem;
+    padding-left: 2rem; }
+    @media (min-width: 1280px) {
+      .c-premium__block {
+        padding-bottom: 25%; } }
   .c-premium__title {
     font-size: 2rem;
     font-weight: 400;
     color: white;
     margin-bottom: 1.5rem; }
+    @media (min-width: 1280px) {
+      .c-premium__title {
+        font-size: 2.5rem; } }
+    @media (min-width: 1600px) {
+      .c-premium__title {
+        font-size: 3rem; } }
+    @media (min-width: 2560px) {
+      .c-premium__title {
+        font-size: 3.5rem; } }
   .c-premium__subtitle {
+    width: 20rem;
     font-size: 2.3rem;
     font-family: "Code Pro", sans-serif;
     color: white;
     line-height: 1.3; }
+    @media (min-width: 1280px) {
+      .c-premium__subtitle {
+        font-size: 3.3rem; } }
+    @media (min-width: 1600px) {
+      .c-premium__subtitle {
+        font-size: 4.3rem; } }
+    @media (min-width: 2560px) {
+      .c-premium__subtitle {
+        font-size: 6.3rem; } }
   .c-premium__image-first {
-    width: 14rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 1.2rem;
-    right: 2rem;
     z-index: -9; }
-  .c-premium__image-second {
-    width: 18rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 7.5rem;
-    z-index: -8; }
-  .c-premium__image-third {
-    width: 13rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 18rem;
-    left: 1.5rem;
-    z-index: -8; }
   .c-premium__image {
     width: 100%; }
 
@@ -716,6 +764,11 @@ body {
         padding-bottom: 0;
         padding-right: 15.625%;
         padding-left: 15.625%; } }
+  @media (min-width: 768px) {
+    .p-mission__body {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between; } }
 
 .p-resources {
   padding-top: 3.2rem;

@@ -31,4 +31,10 @@ body {
 }
 .t-heading {
   font-size: 2.7rem;
+  @include respond-to(desktop-large) {
+    font-size: 3.2rem;
+  }
+  @include respond-to(desktop-el) {
+    font-size: 4rem;
+  }
 }
