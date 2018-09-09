@@ -1,6 +1,8 @@
 .c-connection-block {
   margin-bottom: 4rem;
-
+  @include respond-to(desktop-small) {
+    width: 30rem;
+  }
   &__text {
     line-height: 1.8;
     font-size: 14px;
