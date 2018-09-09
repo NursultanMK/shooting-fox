@@ -1,10 +1,20 @@
 .c-icons {
-
   &__item {
-
     &:not(:last-child) {
       margin-bottom: 3.2rem;
+      @include respond-to(desktop-small) {
+        margin: 0;
+      }
     }
+    @include respond-to(desktop-small) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @include respond-to(desktop-small) {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__view {
