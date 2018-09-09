@@ -8,6 +8,11 @@
   background: $color-primary;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
+  @include respond-to(desktop-small) {
+    width: 20rem;
+    top: 0;
+    left: 67%;
+  }
 
   &__avatar {
     width: 8rem;

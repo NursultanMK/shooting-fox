@@ -1,13 +1,27 @@
 .c-members {
   position: relative;
   padding-bottom: 17rem;
-
+  max-width: 35.1rem;
+  margin: 0 auto;
+  @include respond-to(desktop-small) {
+    width: 35.1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 8rem;
+  }
+  @include respond-to(desktop) {
+    width: 50%;
+    max-width: 70rem;
+  }
   &__block {
+    position: relative;
     border-radius: 1rem;
     padding: 5rem 3rem 4rem 3rem;
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
     background: $color-primary;
-
+    @include respond-to(desktop) {
+      padding-right: 12rem;
+    }
   }
   &__title {
     font-weight: 400;

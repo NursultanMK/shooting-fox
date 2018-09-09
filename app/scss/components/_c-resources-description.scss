@@ -1,13 +1,36 @@
 .c-resources-description {
   margin-bottom: 4rem;
+  width: 32.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  @include respond-to(tablet) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @include respond-to(desktop) {
+    width: 50rem;
+  }
+  @include respond-to(desktop-large) {
+    width: 70rem;
+  }
   &__title {
     color: $text-light-grey-color;
     font-weight: 600;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop-large) {
+      font-size: 1.7rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
+
   }
   &__heading {
     width: 28rem;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop) {
+      width: 80%;
+    }
   }
 
   &__text {
@@ -15,5 +38,15 @@
     font-size: 1.3rem;
     color: $text-light-grey-color;
     margin-bottom: 1.6rem;
+    @include respond-to(desktop) {
+      width: 100%;
+      font-size: 1.6rem;
+    }
+    @include respond-to(desktop-large) {
+      font-size: 1.8rem;
+    }
+    @include respond-to(desktop-el) {
+      font-size: 2rem;
+    }
   }
 }

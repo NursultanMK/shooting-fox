@@ -365,6 +365,11 @@ body {
   background: white;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
   border-radius: 1rem; }
+  @media (min-width: 1000px) {
+    .c-main-person {
+      width: 20rem;
+      top: 0;
+      left: 67%; } }
   .c-main-person__avatar {
     width: 8rem;
     display: flex;
@@ -389,12 +394,28 @@ body {
 
 .c-members {
   position: relative;
-  padding-bottom: 17rem; }
+  padding-bottom: 17rem;
+  max-width: 35.1rem;
+  margin: 0 auto; }
+  @media (min-width: 1000px) {
+    .c-members {
+      width: 35.1rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding-right: 8rem; } }
+  @media (min-width: 1280px) {
+    .c-members {
+      width: 50%;
+      max-width: 70rem; } }
   .c-members__block {
+    position: relative;
     border-radius: 1rem;
     padding: 5rem 3rem 4rem 3rem;
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
     background: white; }
+    @media (min-width: 1280px) {
+      .c-members__block {
+        padding-right: 12rem; } }
   .c-members__title {
     font-weight: 400;
     margin-bottom: 2.2rem; }
@@ -606,19 +627,51 @@ body {
     width: 100%; }
 
 .c-resources-description {
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  width: 32.5rem;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .c-resources-description {
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 1280px) {
+    .c-resources-description {
+      width: 50rem; } }
+  @media (min-width: 1600px) {
+    .c-resources-description {
+      width: 70rem; } }
   .c-resources-description__title {
     color: #6d6d6d;
     font-weight: 600;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1600px) {
+      .c-resources-description__title {
+        font-size: 1.7rem; } }
+    @media (min-width: 2560px) {
+      .c-resources-description__title {
+        font-size: 2rem; } }
   .c-resources-description__heading {
     width: 28rem;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1280px) {
+      .c-resources-description__heading {
+        width: 80%; } }
   .c-resources-description__text {
     width: 32rem;
     font-size: 1.3rem;
     color: #6d6d6d;
     margin-bottom: 1.6rem; }
+    @media (min-width: 1280px) {
+      .c-resources-description__text {
+        width: 100%;
+        font-size: 1.6rem; } }
+    @media (min-width: 1600px) {
+      .c-resources-description__text {
+        font-size: 1.8rem; } }
+    @media (min-width: 2560px) {
+      .c-resources-description__text {
+        font-size: 2rem; } }
 
 .c-social-links {
   display: flex; }
@@ -871,3 +924,7 @@ body {
         padding-bottom: 0;
         padding-right: 15.625%;
         padding-left: 15.625%; } }
+  @media (min-width: 768px) {
+    .p-resources__body {
+      display: flex;
+      justify-content: space-between; } }
