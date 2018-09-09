@@ -141,8 +141,20 @@ body {
       padding-bottom: 0;
       padding-right: 15.625%;
       padding-left: 15.625%; } }
+  @media (min-width: 768px) {
+    .c-account__block {
+      display: flex;
+      justify-content: space-between;
+      padding: 2.5rem;
+      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+      border-radius: 1rem; } }
   .c-account__text {
+    text-align: center;
     margin-bottom: 4rem; }
+    @media (min-width: 768px) {
+      .c-account__text {
+        text-align: left;
+        margin: 0; } }
   .c-account__heading {
     font-size: 2rem;
     font-weight: 600;
@@ -161,6 +173,9 @@ body {
     font-weight: 600;
     text-align: center;
     color: white; }
+    @media (min-width: 768px) {
+      .c-account__create-button {
+        margin: 0; } }
 
 .c-connection-block {
   margin-bottom: 4rem; }

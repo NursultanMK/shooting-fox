@@ -4,11 +4,22 @@
   @include container;
 
   &__block {
-    // display: flex
+    @include respond-to(tablet) {
+      display: flex;
+      justify-content: space-between;
+      padding: 2.5rem;
+      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+      border-radius: 1rem;
+    }
   }
 
   &__text {
+    text-align: center;
     margin-bottom: 4rem;
+    @include respond-to(tablet) {
+      text-align: left;
+      margin: 0;
+    }
   }
   &__heading {
     font-size: 2rem;
@@ -31,5 +42,8 @@
     font-weight: 600;
     text-align: center;
     color: $text-light-color;
+    @include respond-to(tablet) {
+      margin: 0;
+    }
   }
 }
