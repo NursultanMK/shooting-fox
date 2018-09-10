@@ -27,6 +27,9 @@
     @include respond-to(desktop) {
       width: 45rem;
     }
+    &--strong {
+      color: $text-color-red;
+    }
   }
 
   &__text {

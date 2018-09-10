@@ -31,6 +31,9 @@
     @include respond-to(desktop) {
       width: 80%;
     }
+    &--strong {
+      color: $text-color-red;
+    }
   }
 
   &__text {

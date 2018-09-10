@@ -20,7 +20,7 @@
     right: -100%;
     transition: 0.2s;
     padding-top: 2rem;
-    background: purple;
+    background: $color-primary;
 
     @include respond-to(desktop-small) {
       transition: unset;
@@ -28,6 +28,7 @@
       padding: 0;
       position: static;
       display: flex;
+      background: none;
     }
     &--activate {
       right: 0;
@@ -40,6 +41,12 @@
     padding-bottom: 1rem;
     text-transform: uppercase;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include respond-to(tablet) {
+      color: $text-light-color;
+    }
     @include respond-to(desktop-large) {
       font-size: 1.8rem;
     }
@@ -55,5 +62,13 @@
         margin-bottom: 0;
       }
     }
+  }
+  &__button {
+    border-radius: 2rem;
+    width: 10rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background: $color-red;
+    color: $text-light-color;
   }
 }

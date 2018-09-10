@@ -210,7 +210,8 @@ body {
         font-size: 2rem; } }
   .c-features-description__heading {
     width: 28rem;
-    margin-bottom: 1.6rem; }
+    margin-bottom: 1.6rem;
+    color: #be463f; }
   .c-features-description__undertext {
     width: 25rem;
     font-size: 1.2rem;
@@ -504,6 +505,8 @@ body {
     @media (min-width: 1280px) {
       .c-mission-description__heading {
         width: 45rem; } }
+    .c-mission-description__heading--strong {
+      color: #be463f; }
   .c-mission-description__text {
     font-size: 1.3rem;
     color: #6d6d6d;
@@ -555,14 +558,15 @@ body {
   right: -100%;
   transition: 0.2s;
   padding-top: 2rem;
-  background: purple; }
+  background: white; }
   @media (min-width: 1000px) {
     .c-navigation__list {
       transition: unset;
       width: 100%;
       padding: 0;
       position: static;
-      display: flex; } }
+      display: flex;
+      background: none; } }
   .c-navigation__list--activate {
     right: 0; }
 
@@ -572,7 +576,13 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 768px) {
+    .c-navigation__item {
+      color: white; } }
   @media (min-width: 1600px) {
     .c-navigation__item {
       font-size: 1.8rem; } }
@@ -587,6 +597,14 @@ body {
     @media (min-width: 1000px) {
       .c-navigation__item:not(:last-child) {
         margin-bottom: 0; } }
+
+.c-navigation__button {
+  border-radius: 2rem;
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #be463f;
+  color: white; }
 
 .c-play-button {
   display: flex;
@@ -697,6 +715,8 @@ body {
     @media (min-width: 1280px) {
       .c-resources-description__heading {
         width: 80%; } }
+    .c-resources-description__heading--strong {
+      color: #be463f; }
   .c-resources-description__text {
     width: 32rem;
     font-size: 1.3rem;
@@ -779,7 +799,8 @@ body {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  background: linear-gradient(0deg, #8D1F1F -8.42%, rgba(255, 255, 255, 0) 100%), #6F0000; }
   @media (min-width: 768px) {
     .l-header {
       padding-right: 13.02083%;
