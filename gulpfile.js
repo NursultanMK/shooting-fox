@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-
+const cleanCSS = require('gulp-clean-css');
 const postcss = require('postcss')
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('autoprefixer');
@@ -15,13 +15,15 @@ gulp.task('watch', function () {
 });
 
 gulp.task('autoprefixer', function () {
-    var postcss      = require('gulp-postcss');
-    var sourcemaps   = require('gulp-sourcemaps');
-    var autoprefixer = require('autoprefixer');
-
     return gulp.src('app/css/main.css')
         .pipe(sourcemaps.init())
         .pipe(postcss([ autoprefixer() ]))
         .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('app/css/'));
+});
+
+gulp.task('minify-css', function () {
+    gulp.src('app/css/main.css')
+        .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('app/css/'));
 });
